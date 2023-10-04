@@ -101,7 +101,6 @@ with gr.Blocks(title="Bard Chatbot") as app:
 
         with gr.Column():
             gr.Markdown("## Reproduce the Bot Answer")
-            response_text = gr.Markdown()
             audio_output = gr.Audio("init.ogg", label="Audio Output", autoplay=True)
             elapsed_time = gr.Text(label="Elapsed Time")
 
